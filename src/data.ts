@@ -40,10 +40,17 @@ export const acessos: AccessItem[] = [
     senha: 'jLZ@2027',
   },
   {
-    id: 'calculadora-frete-agregado',
-    nome: 'CALCULADORA DE FRETE AGREGADO',
+    id: 'Site-frete-agregado',
+    nome: 'SITE DE FRETE AGREGADO',
     url: 'https://transportegest-production.up.railway.app/',
     usuario: 'Expedição',
+    senha: '0000',
+  },
+  {
+    id: 'calculadora-minino-antt',
+    nome: 'CALCULADORA DE MINIMO ANTT',
+    url: 'https://frete-antt-production.up.railway.app/',
+    usuario: 'expedicao11@samidtransportes.com.br',
     senha: '0000',
   },
   {
