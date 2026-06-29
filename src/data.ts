@@ -20,14 +20,14 @@ export interface UrlItem {
 export const acessos: AccessItem[] = [
   {
     id: 'pamcard-samid-geovane',
-    nome: 'PAMCARD (SAMID) - GEOVANE',
+    nome: 'PAMCARD1 (SAMID)',
     url: 'https://www.roadcard.com.br/sistemapamcard/?loadGaScript=load',
     usuario: 'geovane.samid',
     senha: 'Jolaz@27',
   },
   {
     id: 'pamcard-samid-tulio',
-    nome: 'PAMCARD (SAMID) - TULIO',
+    nome: 'PAMCARD2 (SAMID)',
     url: 'https://www.roadcard.com.br/sistemapamcard/?loadGaScript=load',
     usuario: 'tulio.samid',
     senha: 'Expe@2028',
@@ -50,6 +50,7 @@ export const acessos: AccessItem[] = [
     id: 'rh-batedor-ponto',
     nome: 'RH BATEDOR DE PONTO',
     url: 'https://www.rhid.com.br/v2/#/dashboard',
+    usuario: 'talisson@samidtransportes.com.br',
     senha: '123456',
   },
   {
@@ -87,12 +88,7 @@ export const acessos: AccessItem[] = [
     usuario: 'josimar.vergilio04',
     senha: 'josimar.vergilio04',
   },
-  {
-    id: 'portal-ldc-samid',
-    nome: 'PORTAL LDC (SAMID)',
-    url: 'https://express.ldc.com/account/login',
-    usuario: 'operacao.go@samidtransportes.com.br',
-  },
+ 
   {
     id: 'repom',
     nome: 'REPOM',
